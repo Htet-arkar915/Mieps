@@ -613,6 +613,82 @@ h4 {
   font-size: 30px;
   margin-bottom: 20px;
 }
+
+/*For Contact Us*/
+.container .contact-second-content {
+  display: flex;
+  background-color: white;
+  height: 400px;
+  margin: 10px 10px 0 10px;
+}
+
+.contact-second-content .contact-left-content {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  background-color: rgb(31, 134, 100);
+  height: 100%;
+}
+
+.contact-second-content .contact-left-content ul li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+.contact-second-content .contact-left-content ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.contact-right-content {
+  width: 75%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #154c79;
+}
+.contact-right-content h3 {
+  padding: 60px 0;
+  background-image: url("../images/contact-back.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: yellow;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.contact-right-content h4 {
+  font-size: 25px;
+  display: flex;
+  margin-left: 35px;
+}
+.contact-right-content p {
+  font-size: 20px;
+  display: flex;
+  margin-top: 5px;
+  color: white;
+  margin-left: 35px;
+}
+.contact-right-content ul {
+  width: 100%;
+  display: flex;
+  padding-right: 50px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.contact-right-content ul li {
+  list-style: none;
+}
+.contact-right-content ul li .c-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+.contact-right-content ul li p {
+  font-size: 14px;
+}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {
