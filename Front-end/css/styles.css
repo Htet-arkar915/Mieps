@@ -444,7 +444,175 @@ h4 {
   width: 60%;
   margin-top: 3px;
 }
+/* for noticeboard */
+.container .notice-second-content {
+  display: flex;
+  background-color: white;
+  height: 580px;
+  margin: 10px 10px 0 10px;
+}
 
+.notice-second-content .notice-left-content {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  background-color: rgb(31, 134, 100);
+  height: 100%;
+}
+
+.notice-second-content .notice-left-content ul li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+.notice-second-content .notice-left-content ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.notice-right-content {
+  width: 75%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #154c79;
+}
+.notice-right-content h3 {
+  padding: 60px 0;
+  background-color: black;
+  color: yellow;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.notice-right-content .notices .card {
+  background-color: white;
+  padding: 10px;
+  width: 28%;
+  height: 180px;
+}
+.notice-right-content .notices {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px;
+}
+.notice-right-content .notices .card h6 {
+  font-size: 18px;
+  text-align: start;
+}
+.notice-right-content .notices .card p {
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: start;
+}
+.notice-right-content .notices .card a {
+  float: right;
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 5px;
+  bottom: 0;
+}
+/* for education */
+.container .edu-second-content {
+  display: flex;
+  background-color: white;
+  height: 530px;
+  margin: 10px 10px 0 10px;
+}
+.edu-second-content .edu-left-content {
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 100%;
+  background-color: #154c79;
+}
+.edu-second-content .edu-left-content .above-content {
+  display: flex;
+  padding: 20px 0;
+  height: 49%;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(31, 134, 100);
+}
+.edu-second-content .edu-left-content .register {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 47%;
+  padding: 20px 20px;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+}
+.edu-second-content .edu-left-content .register h2 {
+  font-size: 16px;
+  color: #b30707;
+}
+.edu-second-content .edu-left-content .register ul {
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.edu-second-content .edu-left-content .register ul li {
+  padding-left: 20px;
+  justify-content: start;
+}
+.edu-second-content .edu-left-content .register ul li a {
+  text-align: start;
+  color: black;
+  font-size: 14px;
+  font-weight: 200;
+}
+.edu-second-content .edu-left-content .register li {
+  list-style-type: disc;
+  margin-bottom: 20px;
+}
+.edu-second-content .edu-left-content ul li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.edu-second-content .edu-left-content ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.edu-second-content .edu-left-content .register .reg-btn {
+  display: flex;
+  padding: 0 20px;
+}
+.edu-left-content .register .reg-btn p {
+  color: #b30707;
+  font-size: 20px;
+  font-weight: bold;
+}
+.edu-left-content .register .reg-btn .register {
+  background-color: #b30707;
+  color: white;
+  height: 40px;
+  font-size: 15px;
+  padding-top: 8px;
+  border: #154c79 solid;
+  margin-left: 30px;
+}
+.edu-right-content {
+  width: 75%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #154c79;
+}
+.edu-right-content h3 {
+  padding: 60px 0;
+  background-image: url("../images/edu-back.png");
+  color: yellow;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {
